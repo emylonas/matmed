@@ -7,7 +7,9 @@ permalink: text
 ---
 # I am trying to convert XML in the Browser
 
-<script src="/includes/CETEI.js"></script>
+<div>
+<h3>This is the XML block</h3>
+<script src="includes/CETEI.js"></script>
     <script>
       var CETEIcean = new CETEI();
       CETEIcean.getHTML5('testTEI.xml', function(data) {
@@ -16,3 +18,4 @@ permalink: text
         CETEIcean.addStyle(document, data);
       });
     </script>
+  </div>
