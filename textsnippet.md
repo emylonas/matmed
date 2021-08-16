@@ -12,7 +12,7 @@ permalink: text
 <script src="includes/CETEI.js"></script>
     <script>
       var CETEIcean = new CETEI();
-      CETEIcean.getHTML5('testTEI.xml', function(data) {
+      CETEIcean.getHTML5('textsnippet.xml', function(data) {
         document.getElementById("TEI").innerHTML = "";
         document.getElementById("TEI").appendChild(data);
         CETEIcean.addStyle(document, data);
