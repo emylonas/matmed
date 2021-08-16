@@ -15,9 +15,4 @@ permalink: text
         document.getElementById("TEI").appendChild(data);
         CETEIcean.addStyle(document, data);
       });
-
-      // Alternatively, use then()
-      // (new CETEI).getHTML5('testTEI.xml').then(function(data){
-      //   document.getElementById("TEI").appendChild(data);
-      // });
     </script>
